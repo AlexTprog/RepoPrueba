@@ -1,1 +1,4 @@
- # Repositorio de Pruebas
+# Repositorio de Pruebas
+* Patrones
+* Singleton
+* JavaFX
