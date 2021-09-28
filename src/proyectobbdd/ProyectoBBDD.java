@@ -15,7 +15,11 @@ public class ProyectoBBDD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        MySingleton a = MySingleton.getMySingleton("a");
+        MySingleton b = MySingleton.getMySingleton("b");
+        
+        System.out.println(a.getX());
+        System.out.println(b.getX());
     }
     
 }
